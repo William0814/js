@@ -1,0 +1,79 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  /*text-align: center;*/
+  margin-top: 50px;
+  background-color: blanchedalmond;
+}
+
+#boton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #e66216;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+#boton2 {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #e66216;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+#boton3 {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #e61616;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  width: 300px;
+  height: 300px;
+}
+h1 {
+  padding: 10px 30 px;
+  color: #e61616;
+  border: #e66216;
+}
+
+#MiBoton {
+  /*padding: 5px 10px;*/
+  font-size: 10px;
+  cursor: pointer;
+  background-color: #e61616;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  size: 10px;
+  width: 200px;
+  height: auto;
+}
+#image {
+  padding: 10px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  /*background-color: #e61616;*/
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  position: fixed;
+  top: auto;
+  left: auto;
+}

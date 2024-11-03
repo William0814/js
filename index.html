@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>arrays</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLi0yRQRvQFaaJ6D6Ydcf7X+62/Ran6rxmAtw1Ryw5gZT+Px4p4VP0l4JX3f4u00"
+      crossorigin="anonymous"
+    />
+    <script src="evento.js" defer></script>
+  </head>
+  <body>
+    <!--
+    <script>
+      document.write(
+        '<p>El primer articulo es <strong> ' + articulos[0] + '</strong></p>'
+      );
+      document.write(
+        '<p>la longitud del array es </strong> ' +
+          articulos.length +
+          '</strong></p>'
+      );
+      document.write(
+        '<p>El ultimo articulo es <strong> ' +
+          articulos[articulos.length - 1] +
+          '</strong></p>'
+      );
+      articulos.unshift('pelota');
+      articulos.push('canasta');
+      document.write(
+        '<p> Añadimos el aritulo <strong>' + articulos[0] + '</strong><p>'
+      );
+      document.write(articulos);
+      articulos.push(prompt('Da otro articulo:  '));
+      +document.write('<br>');
+      document.write(articulos);
+    </script>-->
+
+    <input type="button" id="boton" />
+    <input
+      type="button"
+      name=""
+      id="boton2"
+      src="https://www.eliteguias.com/guias/f/ff12tza/final-fantasy-xii-the-zodiac-age_espers-p4.php"
+    />
+    <script>
+      function fecha() {
+        document.write(Date());
+      }
+    </script>
+    <script>
+      var nombre;
+      function pedir_nombre() {
+        nombre = prompt('cual es su nombre: ');
+        document.write(nombre);
+      }
+    </script>
+
+    <h1>
+      Hoy es el dia:
+      <script>
+        fecha();
+      </script>
+
+      <p>
+        Hola
+        <script>
+          pedir_nombre();
+        </script>
+        como estas ?
+      </p>
+    </h1>
+  </body>
+</html>
